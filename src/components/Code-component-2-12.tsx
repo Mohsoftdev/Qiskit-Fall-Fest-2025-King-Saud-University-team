@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
-import pinkLogo from 'figma:asset/70bbabb05dae9f557d6546dfd3c6e41864e8f1c7.png';
-import quantumAtom from 'figma:asset/67cbe5d5f43944e161286e9f18429b206d4d0eaa.png';
+import pinkLogo from '../asset/70bbabb05dae9f557d6546dfd3c6e41864e8f1c7.png';
+import quantumAtom from '../asset/67cbe5d5f43944e161286e9f18429b206d4d0eaa.png';
 
 export function HeroSection() {
   return (
@@ -19,7 +19,7 @@ export function HeroSection() {
       </div>
 
       <div className="container mx-auto px-6 text-center relative z-10">
-        <div className="mb-8">
+        <div className="logo-container mb-8">
           <img 
             src={pinkLogo} 
             alt="Qiskit Fall Fest 2025" 

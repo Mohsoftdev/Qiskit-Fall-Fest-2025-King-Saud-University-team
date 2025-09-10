@@ -1,6 +1,7 @@
+
 import { Card, CardContent } from "./ui/card";
 import { Code, Users, Trophy, BookOpen } from "lucide-react";
-import darkLogo from 'figma:asset/5463abd30c5db1a7274b800a2e1176a57a6f830f.png';
+import darkLogo from '../assets/qiskit-dark-logo.png';
 
 export function AboutSection() {
   const features = [
@@ -37,9 +38,12 @@ export function AboutSection() {
           />
           <h2 className="text-5xl mb-6 text-gray-900">What is Qiskit Fall Fest?</h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Qiskit Fall Fest is a global celebration of quantum computing that brings together students, 
-            developers, and researchers to explore the fascinating world of quantum technology. Whether you're 
-            a complete beginner or an experienced quantum programmer, there's something for everyone.
+            Qiskit Fall Fest is a global celebration of quantum technology, research, 
+            and collaboration through engaging different quantum-themed 
+            activities. This year , King Saud university brings that joy 
+            into campus in Riyadh and you can also join virtually from 
+            anywhere in the world. Together we will honor the past, 
+            explore the quantum breakthroughs of today, and a take a glimpse into the future that we are building together. Join us and don’t miss out the fun!!
           </p>
         </div>
 

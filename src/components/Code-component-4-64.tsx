@@ -1,6 +1,6 @@
 import { Card, CardContent } from "./ui/card";
 import { Mail, Linkedin, Twitter } from "lucide-react";
-import { ImageWithFallback } from './components/figma/ImageWithFallback';
+import { ImageWithFallback } from './figma/ImageWithFallback';
 
 export function OrganizingTeam() {
   const organizers = [

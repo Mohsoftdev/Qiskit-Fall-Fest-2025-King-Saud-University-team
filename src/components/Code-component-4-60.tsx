@@ -1,7 +1,7 @@
 import { Card, CardContent } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { Linkedin, Twitter, Globe } from "lucide-react";
-import { ImageWithFallback } from './components/figma/ImageWithFallback';
+import { ImageWithFallback } from './figma/ImageWithFallback';
 
 export function SpeakersSection() {
   const speakers = [

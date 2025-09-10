@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
-import darkLogo from 'figma:asset/5463abd30c5db1a7274b800a2e1176a57a6f830f.png';
+import darkLogo from '../assets/qiskit-logo-dar.png';
 
 export function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

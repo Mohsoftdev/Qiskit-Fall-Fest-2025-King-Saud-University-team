@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
-import pinkLogo from 'figma:asset/70bbabb05dae9f557d6546dfd3c6e41864e8f1c7.png';
-import quantumAtom from 'figma:asset/67cbe5d5f43944e161286e9f18429b206d4d0eaa.png';
+import pinkLogo from '../assets/70bbabb05dae9f557d6546dfd3c6e41864e8f1c7.png';
+import quantumAtom from '../assets/67cbe5d5f43944e161286e9f18429b206d4d0eaa.png';
 
 export function HeroSection() {
   return (

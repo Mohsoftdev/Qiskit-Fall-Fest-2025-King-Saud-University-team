@@ -1258,6 +1258,9 @@
     transform-origin: var(--radix-context-menu-content-transform-origin);
   }
 
+  .logo-container{
+    margin: 100px;
+  }
   .origin-\(--radix-dropdown-menu-content-transform-origin\) {
     transform-origin: var(--radix-dropdown-menu-content-transform-origin);
   }

@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 import { Github, Twitter, Youtube, Globe } from "lucide-react";
-import darkLogo from 'figma:asset/5463abd30c5db1a7274b800a2e1176a57a6f830f.png';
+import darkLogo from '../assets/qiskit-dark-logo.png';
 
 export function Footer() {
   const socialLinks = [

@@ -1,6 +1,6 @@
 import { Card, CardContent } from "./ui/card";
 import { Code, Users, Trophy, BookOpen } from "lucide-react";
-import darkLogo from 'figma:asset/5463abd30c5db1a7274b800a2e1176a57a6f830f.png';
+import darkLogo from '../assets/qiskit-dark-logo.png';
 
 export function AboutSection() {
   const features = [
