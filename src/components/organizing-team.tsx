@@ -17,7 +17,7 @@ export function OrganizingTeam() {
       }
     },
     {
-      name: "Hassan Al Husayni",
+      name: "Hassan AlHusayni",
       title: "Co-organizer & Qiskit Advocate",
       affiliation: "King Saud University",
       department: "Qiskit Fall Fest 2025",
