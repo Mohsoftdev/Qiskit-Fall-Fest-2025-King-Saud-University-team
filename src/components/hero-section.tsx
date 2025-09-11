@@ -18,8 +18,8 @@ export function HeroSection() {
         </div>
       </div>
 
-      <div className="container mx-auto px-6 text-center relative z-10">
-        <div className="mb-8">
+      <div className="container mx-auto mt-12 px-6 text-center relative z-10">
+        <div className="mt-12 mb-8">
           <img 
             src={pinkLogo} 
             alt="Qiskit Fall Fest 2025" 

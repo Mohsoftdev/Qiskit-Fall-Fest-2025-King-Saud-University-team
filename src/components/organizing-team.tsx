@@ -6,9 +6,9 @@ export function OrganizingTeam() {
   const organizers = [
     {
       name: "Mohamedelfaith Seedahmed",
-      title: "Lead Organizer",
+      title: "Lead Organizer & Qiskit Advocate",
       affiliation: "King Saud University",
-      department: "Qiskit Fall Fest 2025",
+      department: "Computer Engineering Department",
       bio: "Leading the organization of Qiskit Fall Fest 2025 at King Saud University, passionate about quantum computing education and community building in Saudi Arabia.",
       email: "m.seedahmed@ksu.edu.sa",
       social: {
@@ -18,7 +18,7 @@ export function OrganizingTeam() {
     },
     {
       name: "Hassan Al Husayni",
-      title: "Co-organizer",
+      title: "Co-organizer & Qiskit Advocate",
       affiliation: "King Saud University",
       department: "Qiskit Fall Fest 2025",
       bio: "Supporting the coordination and technical aspects of the event, with focus on workshop development and participant engagement.",
@@ -29,7 +29,7 @@ export function OrganizingTeam() {
       }
     },
     {
-      name: "Ola Mahjoun",
+      name: "Ola Mahjoub",
       title: "Co-organizer",
       affiliation: "King Saud University",
       department: "Qiskit Fall Fest 2025",
@@ -106,16 +106,14 @@ export function OrganizingTeam() {
         </div>
 
         <div className="bg-gradient-to-r from-[#0084BD] to-[#748995] rounded-2xl p-12 text-white text-center">
-          <h3 className="text-3xl mb-4">King Saud University</h3>
+          <h3 className="text-3xl mb-4">Partners made it this hackathon possible</h3>
           <p className="text-lg text-[#E3E0D2] mb-6 max-w-3xl mx-auto">
-            As one of Saudi Arabia's premier research institutions, King Saud University is proud to host 
-            Qiskit Fall Fest 2025, bringing cutting-edge quantum computing education and research 
-            opportunities to the region.
+            A warm thank you to our partners for their invaluable support and collaboration in making
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
             <div>
-              <h4 className="text-xl mb-2">Research Excellence</h4>
-              <p className="text-[#E3E0D2]">Leading quantum research initiatives in the Middle East</p>
+              <h4 className="text-xl mb-2">Future Technologies Club (King Saud University)</h4>
+              <p className="text-[#E3E0D2]">///////////////////////////////////////</p>
             </div>
             <div>
               <h4 className="text-xl mb-2">Industry Partnerships</h4>

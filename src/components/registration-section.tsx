@@ -55,16 +55,17 @@ export function RegistrationSection() {
                   </div>
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-[#E3E0D2] rounded-full mr-3"></div>
-                    Networking lunch and coffee breaks
+                    Interactive challenges
                   </div>
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-[#E3E0D2] rounded-full mr-3"></div>
-                    KSU campus tour and facility access
+                    Participation Certificates
                   </div>
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-[#E3E0D2] rounded-full mr-3"></div>
-                    Participation certificates
+                    Networking with speakers and organizers
                   </div>
+                  
                 </div>
                 <Button 
                   className="w-full bg-[#FF006B] hover:bg-[#6929C4] text-white"
@@ -94,18 +95,10 @@ export function RegistrationSection() {
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-[#E3E0D2] rounded-full mr-3"></div>
                     Live streaming of all sessions
-                  </div>
+                  </div>                 
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-[#E3E0D2] rounded-full mr-3"></div>
-                    Virtual workshops and tutorials
-                  </div>
-                  <div className="flex items-center">
-                    <div className="w-2 h-2 bg-[#E3E0D2] rounded-full mr-3"></div>
-                    Online networking and Q&A sessions
-                  </div>
-                  <div className="flex items-center">
-                    <div className="w-2 h-2 bg-[#E3E0D2] rounded-full mr-3"></div>
-                    Digital participation certificates
+                     Participation certificates
                   </div>
                 </div>
                 <Button 
@@ -138,33 +131,7 @@ export function RegistrationSection() {
                   </div>
                 ))}
               </div>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8">
-              <h4 className="text-2xl mb-4 text-white">What You'll Get</h4>
-              <ul className="space-y-3 text-purple-200">
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-pink-400 rounded-full mr-3"></div>
-                  Access to all workshops and events
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-pink-400 rounded-full mr-3"></div>
-                  IBM Quantum Network trial access
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-pink-400 rounded-full mr-3"></div>
-                  Exclusive Qiskit learning materials
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-pink-400 rounded-full mr-3"></div>
-                  Certificate of participation
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-pink-400 rounded-full mr-3"></div>
-                  Networking with quantum community
-                </li>
-              </ul>
-            </div>
+            </div>            
           </div>
         </div>
       </div>

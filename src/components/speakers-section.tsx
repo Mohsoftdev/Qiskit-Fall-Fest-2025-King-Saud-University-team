@@ -6,72 +6,60 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 export function SpeakersSection() {
   const speakers = [
     {
-      name: "Dr. Sarah Al-Rashid",
-      title: "Quantum Computing Researcher",
-      affiliation: "King Saud University",
+      name: "Dr. Ahmed Al-Qatatsheh",
+      title: "IBM Quantum ambassador in the EMEA Region, Qiskit Advocate.",
+      affiliation: "IBM",
       bio: "Leading researcher in quantum algorithms and their applications to optimization problems. Published 50+ papers in quantum computing.",
-      expertise: ["Quantum Algorithms", "Optimization", "QAOA"],
+      expertise: ["Qiskit", "Optimization", "QAOA"],
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/ahmedal-qatatsheh/",
         twitter: "#",
         website: "#"
       }
     },
     {
-      name: "Prof. Ahmed Mahmoud",
-      title: "IBM Quantum Ambassador",
-      affiliation: "IBM Research",
+      name: "Eng. Muhammad Al-Saiyari",
+      title: "Senior Technology Consultant at Saudi Aramco, Chairman of the Saudi Quantum Computing Association, and Fellow of the World Economic Forum.",
+      affiliation: "Aramco - Saudi Quantum Computing Association",
       bio: "Senior quantum software engineer at IBM with expertise in Qiskit development and quantum machine learning applications.",
-      expertise: ["Qiskit", "Quantum ML", "Hardware"],
+      expertise: ["Qiskit", "Quantum ML", "Economics"],
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/muhammad-al-saiyari-%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D8%B5%D9%8A%D8%B9%D8%B1%D9%8A-1082573/",
         twitter: "#",
         website: "#"
       }
     },
     {
-      name: "Dr. Fatima Al-Zahra",
-      title: "Quantum Cryptography Expert",
-      affiliation: "KACST",
+      name: "Khulud Al-mutairi",
+      title: "Lecturer at King Saud University and Co-founder of Saudi Quantum Technology Association",
+      affiliation: "King Saud University",
       bio: "Specialist in quantum cryptography and quantum key distribution with focus on practical implementations.",
       expertise: ["Quantum Cryptography", "QKD", "Security"],
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/khulud-almutairi-493501251/",
         website: "#"
       }
     },
     {
-      name: "Omar Hassan",
-      title: "Quantum Startup Founder",
-      affiliation: "QuantumTech MENA",
-      bio: "Entrepreneur building quantum computing solutions for the Middle East market. Former Google Quantum AI researcher.",
-      expertise: ["Quantum Business", "NISQ Algorithms", "Industry Applications"],
+      name: "Dr. Saad Al Owayyed",
+      title: "Former General Manager of Quantum Technologies and Advanced Computing at KACST, and leader of Saudi Arabia’s national quantum strategy through C4IR KSA. He holds a Ph.D. in Computational Science and an MBA.",
+      affiliation: "C4IR KSA",
+      bio: "",
+      expertise: ["C4IR", "Quantum Strategy", "Industry Applications"],
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/company/c4ir-ksa/",
         twitter: "#",
         website: "#"
       }
     },
     {
-      name: "Dr. Noura Al-Mansouri",
-      title: "Quantum Error Correction Specialist",
-      affiliation: "KAUST",
+      name: "Dr. Muhamad Felemban",
+      title: "Assistant Professor at KFUPM and Director of the Interdisciplinary Research Center for Intelligent Secure Systems. Focused on data security, privacy-preserving analytics, and quantum computing.",
+      affiliation: "KFUPM",
       bio: "Expert in quantum error correction codes and fault-tolerant quantum computing architectures.",
-      expertise: ["Error Correction", "Fault Tolerance", "Quantum Codes"],
+      expertise: ["Quantum Education", "Interdisciplinary Research", "Research"],
       social: {
-        linkedin: "#",
-        website: "#"
-      }
-    },
-    {
-      name: "Khalid Bin Rashid",
-      title: "Quantum Software Engineer",
-      affiliation: "Rigetti Computing",
-      bio: "Quantum software engineer specializing in quantum cloud platforms and quantum programming frameworks.",
-      expertise: ["Quantum Cloud", "Software Engineering", "Quantum Compilers"],
-      social: {
-        linkedin: "#",
-        twitter: "#",
+        linkedin: "https://www.linkedin.com/in/muhamad-felemban-074740a/",
         website: "#"
       }
     }
