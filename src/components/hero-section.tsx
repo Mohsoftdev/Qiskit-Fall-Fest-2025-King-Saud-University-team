@@ -36,7 +36,7 @@ export function HeroSection() {
         </p>
         
         <p className="text-xl text-[#FF006B] mb-8 max-w-3xl mx-auto">
-          Hosted by King Saud University • Hybrid Event • Riyadh, Saudi Arabia
+          Hosted by TBD • Hybrid Event • Riyadh, Saudi Arabia
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -54,7 +54,7 @@ export function HeroSection() {
             <p className="text-[#E3E0D2]/80">Join us in-person at KSU or virtually online</p>
           </div>
           <div>
-            <h3 className="text-2xl mb-2">October 2025</h3>
+            <h3 className="text-2xl mb-2">18 - 22 November 2025</h3>
             <p className="text-[#E3E0D2]/80">5-day quantum computing celebration</p>
           </div>
           <div>

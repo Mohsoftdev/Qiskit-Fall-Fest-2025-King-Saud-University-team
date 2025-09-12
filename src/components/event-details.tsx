@@ -7,32 +7,32 @@ export function EventDetails() {
   const getEvents = () => [
     {
       title: "Day 1: Introduction to Quantum Computing",
-      date: "TBD",
+      date: "18 Nov 2025",
       format: "Mixed",
       level: "Beginner",
       description: "Opening ceremony, welcome session, and comprehensive introduction to quantum computing fundamentals",
       subEvents: [
         {
           type: "workshop",
-          title: ('Quantum 101'),
-          time: ('TBD'),
+          title: 'Quantum 101',
+          time: 'TBD',
           description: ('Opening ceremony, welcome session, brief history about quantum and a beginner-friendly introduction to quantum computing fundamentals and some basic terminology.'),
-          location: ('Hybrid'),
+          location: 'Hybrid',
           speaker: "Mohamedelfatih Seedahmed - Lead Organizer"
         },
         {
           type: "speech", 
-          title: ('Building the Quantum Ecosystem'),
-          time: ('TBD'),
-          description: ('Sharing insights on how to enrich the quantum ecosystem in Saudi Arabia and what is the potential impact of that.'),
-          location: ('Hybrid'),
+          title: 'Building the Quantum Ecosystem',
+          time: 'TBD',
+          description: 'Sharing insights on how to enrich the quantum ecosystem in Saudi Arabia and what is the potential impact of that.',
+          location: 'Hybrid',
           speaker: "Dr. Saad Al Owayyed"
         }
       ]
     },
     {
       title: "Day 2: Design your Quantum Education and Implement your first circuits",
-      date: "TBD",
+      date: "19 Nov 2025",
       format: "Hybrid",
       level: "Beginner to Intermediate",
       description: "Deep dive into quantum programming with practical circuit building exercises",
@@ -55,7 +55,7 @@ export function EventDetails() {
     },
     {
       title: "Day 3: Deep Dive",
-      date: "TBD",
+      date: "20 Nov 2025",
       format: "Hybrid",
       level: "Intermediate",
       description: "Explore advanced quantum algorithms and their practical implementations",
@@ -77,7 +77,7 @@ export function EventDetails() {
     },
     {
       title: "Day 4: Hackathon Day",
-      date: "TBD",
+      date: "21 Nov 2025",
       format: "Hybrid",
       level: "All Levels",
       description: "Implementing quantum solutions in a collaborative hackathon setting",
@@ -100,7 +100,7 @@ export function EventDetails() {
     },
     {
       title: "Day 5: Project Showcase & Closing Ceremony",
-      date: "TBD",
+      date: "22 Nov 2025",
       format: "Hybrid",
       level: "All Levels",
       description: "Present hackathon projects, awards ceremony, and networking session",
@@ -146,15 +146,15 @@ export function EventDetails() {
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-5xl mb-6 text-gray-900">{('event.title')}</h2>
+          <h2 className="text-5xl mb-6 text-gray-900">Event Schedule</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            {('event.subtitle')}
+            A comprehensive 5-day journey through quantum computing fundamentals, applications, and research
           </p>
           <div className="mt-8 bg-[#E3E0D2] rounded-lg p-6 max-w-2xl mx-auto">
             <h3 className="text-lg text-[#0084BD] mb-2">📍 Venue Information</h3>
             <p className="text-[#748995]">
-              <strong>King Saud University</strong><br/>
-              College of Computer and Information Sciences<br/>
+              <strong>TBD</strong><br/>
+              TBD<br/>
               Riyadh, Saudi Arabia<br/>
               <em>All sessions will be broadcast live for virtual participants</em>
             </p>

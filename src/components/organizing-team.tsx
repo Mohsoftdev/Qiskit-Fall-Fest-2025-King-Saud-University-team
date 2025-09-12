@@ -17,7 +17,7 @@ export function OrganizingTeam() {
       }
     },
     {
-      name: "Hassan AlHusayni",
+      name: "Hassan Alhusayni",
       title: "Co-organizer & Qiskit Advocate",
       affiliation: "King Saud University",
       department: "Qiskit Fall Fest 2025",
@@ -112,15 +112,15 @@ export function OrganizingTeam() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
             <div>
-              <h4 className="text-xl mb-2">Future Technologies Club (King Saud University)</h4>
+              <h4 className="text-xl mb-2">TBD</h4>
               <p className="text-[#E3E0D2]">///////////////////////////////////////</p>
             </div>
             <div>
-              <h4 className="text-xl mb-2">Industry Partnerships</h4>
+              <h4 className="text-xl mb-2">TBD</h4>
               <p className="text-[#E3E0D2]">Collaborations with IBM Quantum Network and global partners</p>
             </div>
             <div>
-              <h4 className="text-xl mb-2">Student Innovation</h4>
+              <h4 className="text-xl mb-2">TBD</h4>
               <p className="text-[#E3E0D2]">Fostering the next generation of quantum scientists</p>
             </div>
           </div>
