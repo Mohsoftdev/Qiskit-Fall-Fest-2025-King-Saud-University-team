@@ -34,7 +34,7 @@ export function Navigation() {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-white hover:text-[#FF006B] transition-colors duration-200"
+                className="text-white hover:text-blue-600 transition-colors duration-200"
               >
                 {item.name}
               </a>

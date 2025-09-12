@@ -7,7 +7,7 @@ export function EventDetails() {
   const getEvents = () => [
     {
       title: "Day 1: Introduction to Quantum Computing",
-      date: "October 20, 2025",
+      date: "TBD",
       format: "Mixed",
       level: "Beginner",
       description: "Opening ceremony, welcome session, and comprehensive introduction to quantum computing fundamentals",
@@ -100,7 +100,7 @@ export function EventDetails() {
     },
     {
       title: "Day 5: Project Showcase & Closing Ceremony",
-      date: "October 24, 2025",
+      date: "TBD",
       format: "Hybrid",
       level: "All Levels",
       description: "Present hackathon projects, awards ceremony, and networking session",
@@ -115,7 +115,7 @@ export function EventDetails() {
         {
           type: "workshop",
           title: "QML (Quantum Machine Learning)",
-          time: "2:00 PM - 4:00 PM AST",
+          time: "TBD",
           description: "Learn the basics of Quantum Machine Learning and its applications.",
         }
       ]

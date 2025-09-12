@@ -12,7 +12,7 @@ export function OrganizingTeam() {
       bio: "Leading the organization of Qiskit Fall Fest 2025 at King Saud University, passionate about quantum computing education and community building in Saudi Arabia.",
       email: "m.seedahmed@ksu.edu.sa",
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/mohamedelfatih-seedahmed-077b65245/",
         twitter: "#"
       }
     },
@@ -24,7 +24,7 @@ export function OrganizingTeam() {
       bio: "Supporting the coordination and technical aspects of the event, with focus on workshop development and participant engagement.",
       email: "h.alhusayni@ksu.edu.sa",
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/hassan-alhusayni/",
         twitter: "#"
       }
     },
@@ -36,7 +36,7 @@ export function OrganizingTeam() {
       bio: "Managing logistics and outreach efforts to ensure a successful hybrid event experience for all participants.",
       email: "o.mahjoun@ksu.edu.sa",
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/ola-tarig/",
         twitter: "#"
       }
     }
