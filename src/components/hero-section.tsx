@@ -1,8 +1,12 @@
 import { Button } from "./ui/button";
 import pinkLogo from '../assets/70bbabb05dae9f557d6546dfd3c6e41864e8f1c7.png';
 import quantumAtom from '../assets/67cbe5d5f43944e161286e9f18429b206d4d0eaa.png';
-
+import timelineImage1 from '../assets/Emojis/Timeline_01.png';
+import timelineImage2 from '../assets/Emojis/Timeline_02.png';
+import timelineImage3 from '../assets/Emojis/Timeline_03.png';
+import timelineImage4 from '../assets/Emojis/Timeline_04.png';
 export function HeroSection() {
+  
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#6929C4] via-[#0084BD] to-[#4C1D95] overflow-hidden">
       {/* Background decorative elements */}
@@ -17,18 +21,53 @@ export function HeroSection() {
           <img src={quantumAtom} alt="" className="w-full h-full animate-spin" style={{ animationDuration: '25s' }} />
         </div>
       </div>
+      {/* Timeline Images Matrix - Perfect 2x2 Square */}
+      <div className="absolute top-20 right-8 hidden lg:block">
+        <div className="w-40 h-40 grid grid-cols-2 grid-rows-2 gap-1 p-2 bg-transperant backdrop-blur-sm">
+          <div className="group">
+            <img
+              src={timelineImage1}
+                  alt="Quantum Learning"
+                  className="w-14 h-14 object-cover rounded-sm transition-transform duration-300 group-hover:scale-105 opacity-70 hover:opacity-90"
+                />
+              </div>
+              <div className="group">
+                <img 
+                  src={timelineImage2} 
+                  alt="Quantum Exploration" 
+                  className="w-14 h-14 object-cover rounded-sm transition-transform duration-300 group-hover:scale-105 opacity-70 hover:opacity-90"
+                />
+              </div>
+              <div className="group">
+                <img 
+                  src={timelineImage3} 
+                  alt="Quantum Creation" 
+                  className="w-14 h-14 object-cover rounded-sm transition-transform duration-300 group-hover:scale-105 opacity-70 hover:opacity-90"
+                />
+              </div>
+              <div className="group">
+                <img 
+                  src={timelineImage4} 
+                  alt="Quantum Computing Journey" 
+                  className="w-14 h-14 object-cover rounded-sm transition-transform duration-300 group-hover:scale-105 opacity-70 hover:opacity-90"
+                />
+              </div>
+            </div>
+          </div>
 
-      <div className="container mx-auto mt-12 px-6 text-center relative z-10">
-        <div className="mt-12 mb-8">
+      <div className="container mx-auto px-6 text-center relative z-10">
+        <div className="mb-8 flex items-center justify-center gap-8">
           <img 
             src={pinkLogo} 
             alt="Qiskit Fall Fest 2025" 
-            className="w-64 h-64 mx-auto mb-8 drop-shadow-2xl"
+            className="w-64 h-64 drop-shadow-2xl"
           />
+          
+          
         </div>
         
         <h1 className="text-6xl md:text-8xl mb-6 bg-gradient-to-r from-[#FF006B] to-[#E3E0D2] bg-clip-text text-transparent">
-          Qiskit Fall Fest
+          Qiskit Fall Fest 2025
         </h1>
         
         <p className="text-2xl md:text-3xl text-[#E3E0D2] mb-4 max-w-4xl mx-auto">
@@ -48,10 +87,10 @@ export function HeroSection() {
           </Button>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto text-[#E3E0D2]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto text-[#E3E0D2] mb-16">
           <div>
             <h3 className="text-2xl mb-2">Hybrid Format</h3>
-            <p className="text-[#E3E0D2]/80">Join us in-person at KSU or virtually online</p>
+            <p className="text-[#E3E0D2]/80">Join us in-person at location TBD or virtually online</p>
           </div>
           <div>
             <h3 className="text-2xl mb-2">18 - 22 November 2025</h3>
@@ -62,6 +101,8 @@ export function HeroSection() {
             <p className="text-[#E3E0D2]/80">Students, researchers, and quantum enthusiasts</p>
           </div>
         </div>
+
+
       </div>
     </section>
   );

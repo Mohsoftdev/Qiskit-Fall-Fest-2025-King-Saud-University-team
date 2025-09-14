@@ -6,19 +6,43 @@ export function EventDetails() {
   
   const getEvents = () => [
     {
-      title: "Day 1: Introduction to Quantum Computing",
+      title: "Day 1: Track the revolution",
       date: "18 Nov 2025",
-      format: "Mixed",
-      level: "Beginner",
-      description: "Opening ceremony, welcome session, and comprehensive introduction to quantum computing fundamentals",
+      format: "Hybrid",
+      level: "All Levels",
+      description: "Understand the past, current and future of quantum computing",
       subEvents: [
         {
-          type: "workshop",
+          type: "speech",
           title: 'Quantum 101',
           time: 'TBD',
           description: ('Opening ceremony, welcome session, brief history about quantum and a beginner-friendly introduction to quantum computing fundamentals and some basic terminology.'),
           location: 'Hybrid',
-          speaker: "Mohamedelfatih Seedahmed - Lead Organizer"
+          speaker: "Organizing Team"
+        },
+        {
+          type: "speech",
+          title: "IBM Roadmap and the Future of Quantum Computing",
+          time: "TBD",
+          description: "Presenting IBM’s vision and milestones toward building fault-tolerant quantum computers.",
+          speaker: "Dr. Ahmed Al-Qatatsheh"
+        },
+        
+      ]
+    },
+    {
+      title: "Day 2: Introduction to Quantum Computing",
+      date: "19 Nov 2025",
+      format: "Mixed",
+      level: "Beginner",
+      description: "Opening ceremony, welcome session, and comprehensive introduction to quantum computing fundamentals",
+      subEvents: [
+        
+        {
+          type: "workshop",
+          title: "Qiskit 101",
+          time: "TBD", 
+          description: "Hands-on workshop building quantum circuits, understanding quantum measurements, and implementing basic quantum algorithms in Qiskit"
         },
         {
           type: "speech", 
@@ -31,8 +55,8 @@ export function EventDetails() {
       ]
     },
     {
-      title: "Day 2: Design your Quantum Education and Implement your first circuits",
-      date: "19 Nov 2025",
+      title: "Day 3: Design your Quantum Education and Implement your first circuits",
+      date: "20 Nov 2025",
       format: "Hybrid",
       level: "Beginner to Intermediate",
       description: "Deep dive into quantum programming with practical circuit building exercises",
@@ -47,15 +71,16 @@ export function EventDetails() {
         },
         {
           type: "workshop",
-          title: "Qiskit 101",
-          time: "TBD", 
-          description: "Hands-on workshop building quantum circuits, understanding quantum measurements, and implementing basic quantum algorithms in Qiskit"
+          title: "Basic Algorithms Implementation Lab",
+          time: "TBD",
+          description: "Run Basic Quantum Algorithsms on simulator and real quantum hardware"
         }
+        
       ]
     },
     {
-      title: "Day 3: Deep Dive",
-      date: "20 Nov 2025",
+      title: "Day 4: Deep Dive",
+      date: "21 Nov 2025",
       format: "Hybrid",
       level: "Intermediate",
       description: "Explore advanced quantum algorithms and their practical implementations",
@@ -69,15 +94,16 @@ export function EventDetails() {
         },
         {
           type: "workshop",
-          title: "Basic Algorithms Implementation Lab",
+          title: "QML (Quantum Machine Learning)",
           time: "TBD",
-          description: "Run Basic Quantum Algorithsms on simulator and real quantum hardware"
+          description: "Learn the basics of Quantum Machine Learning and its applications.",
         }
+        
       ]
     },
     {
-      title: "Day 4: Hackathon Day",
-      date: "21 Nov 2025",
+      title: "Day 5: Hackathon Day",
+      date: "22 Nov 2025",
       format: "Hybrid",
       level: "All Levels",
       description: "Implementing quantum solutions in a collaborative hackathon setting",
@@ -98,28 +124,7 @@ export function EventDetails() {
         }
       ]
     },
-    {
-      title: "Day 5: Project Showcase & Closing Ceremony",
-      date: "22 Nov 2025",
-      format: "Hybrid",
-      level: "All Levels",
-      description: "Present hackathon projects, awards ceremony, and networking session",
-      subEvents: [
-        {
-          type: "speech",
-          title: "IBM Roadmap and the Future of Quantum Computing",
-          time: "TBD",
-          description: "Presenting IBM’s vision and milestones toward building fault-tolerant quantum computers.",
-          speaker: "Dr. Ahmed Al-Qatatsheh"
-        },
-        {
-          type: "workshop",
-          title: "QML (Quantum Machine Learning)",
-          time: "TBD",
-          description: "Learn the basics of Quantum Machine Learning and its applications.",
-        }
-      ]
-    }
+    
   ];
   
   const events = getEvents();
