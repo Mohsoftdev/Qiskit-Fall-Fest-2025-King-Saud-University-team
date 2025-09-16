@@ -33,7 +33,7 @@ export function OrganizingTeam() {
       title: "Co-organizer",
       affiliation: "King Saud University",
       department: "Qiskit Fall Fest 2025",
-      bio: "Managing logistics and outreach efforts to ensure a successful hybrid event experience for all participants.",
+      bio: "Managing content and plannig in event actions to ensure a successful hybrid event experience for all participants.",
       email: "o.mahjoun@ksu.edu.sa",
       social: {
         linkedin: "https://www.linkedin.com/in/ola-tarig/",
@@ -112,16 +112,16 @@ export function OrganizingTeam() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
             <div>
-              <h4 className="text-xl mb-2">TBD</h4>
-              <p className="text-[#E3E0D2]">///////////////////////////////////////</p>
+              <h4 className="text-xl mb-2">King Saud University</h4>
+              <p className="text-[#E3E0D2]">College of Computer and Information Sciences</p>
             </div>
             <div>
-              <h4 className="text-xl mb-2">TBD</h4>
-              <p className="text-[#E3E0D2]">Collaborations with IBM Quantum Network and global partners</p>
+              <h4 className="text-xl mb-2">SQCA</h4>
+              <p className="text-[#E3E0D2]">The first quantum computing Association</p>
             </div>
             <div>
-              <h4 className="text-xl mb-2">TBD</h4>
-              <p className="text-[#E3E0D2]">Fostering the next generation of quantum scientists</p>
+              <h4 className="text-xl mb-2">C4IR</h4>
+              <p className="text-[#E3E0D2]">A think tank to advance the benefits of C4IR in Saudi Arabia</p>
             </div>
           </div>
         </div>

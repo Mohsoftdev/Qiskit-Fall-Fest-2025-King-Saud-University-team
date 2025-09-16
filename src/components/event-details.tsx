@@ -15,7 +15,7 @@ export function EventDetails() {
         {
           type: "speech",
           title: 'Quantum 101',
-          time: 'TBD',
+          time: '18:00',
           description: ('Opening ceremony, welcome session, brief history about quantum and a beginner-friendly introduction to quantum computing fundamentals and some basic terminology.'),
           location: 'Hybrid',
           speaker: "Organizing Team"
@@ -23,7 +23,7 @@ export function EventDetails() {
         {
           type: "speech",
           title: "IBM Roadmap and the Future of Quantum Computing",
-          time: "TBD",
+          time: "19:00",
           description: "Presenting IBM’s vision and milestones toward building fault-tolerant quantum computers.",
           speaker: "Dr. Ahmed Al-Qatatsheh"
         },
@@ -37,21 +37,22 @@ export function EventDetails() {
       level: "Beginner",
       description: "Opening ceremony, welcome session, and comprehensive introduction to quantum computing fundamentals",
       subEvents: [
+        {
+          type: "speech", 
+          title: 'Building the Quantum Ecosystem',
+          time: '18:00',
+          description: 'Sharing insights on how to enrich the quantum ecosystem in Saudi Arabia and what is the potential impact of that.',
+          location: 'Hybrid',
+          speaker: "Dr. Saad Al Owayyed"
+        },
         
         {
           type: "workshop",
           title: "Qiskit 101",
-          time: "TBD", 
+          time: "19:00 - 21:00", 
           description: "Hands-on workshop building quantum circuits, understanding quantum measurements, and implementing basic quantum algorithms in Qiskit"
         },
-        {
-          type: "speech", 
-          title: 'Building the Quantum Ecosystem',
-          time: 'TBD',
-          description: 'Sharing insights on how to enrich the quantum ecosystem in Saudi Arabia and what is the potential impact of that.',
-          location: 'Hybrid',
-          speaker: "Dr. Saad Al Owayyed"
-        }
+        
       ]
     },
     {
@@ -64,7 +65,7 @@ export function EventDetails() {
         {
           type: "speech",
           title: "Quantum Education",
-          time: "TBD",
+          time: "18:00",
           description: "A Talk about quantum education in general and what are the future plans in the Kingdom.",
           location: ('Hybrid'),
           speaker: "Dr. Mohammed Felemban"
@@ -72,7 +73,7 @@ export function EventDetails() {
         {
           type: "workshop",
           title: "Basic Algorithms Implementation Lab",
-          time: "TBD",
+          time: "19:00 - 21:00",
           description: "Run Basic Quantum Algorithsms on simulator and real quantum hardware"
         }
         
@@ -88,14 +89,14 @@ export function EventDetails() {
         {
           type: "speech",
           title: "Quantum economic and its opportunities",
-          time: "TBD",
+          time: "18:00",
           description: "Exploring the intersection of quantum technology, economics, and the role of youth in driving change.",
           speaker: "Eng. Muhammad Al-Saiyari"
         },
         {
           type: "workshop",
           title: "QML (Quantum Machine Learning)",
-          time: "TBD",
+          time: "19:00 - 21:00",
           description: "Learn the basics of Quantum Machine Learning and its applications.",
         }
         
@@ -111,14 +112,14 @@ export function EventDetails() {
         {
           type: "speech",
           title: "Women in Quantum",
-          time: "TBD",
+          time: "18:00",
           description: "Highlighting women’s contributions and opportunities in the field of quantum computing.",
           speaker: "Khulud Almutairi"
         },
         {
           type: "workshop",
           title: "Quantum Hackathon",
-          time: "TBD",
+          time: "19:00 - 22:00",
           description: "Intensive team-based development with mentorship support throughout the day",
           
         }
@@ -158,8 +159,8 @@ export function EventDetails() {
           <div className="mt-8 bg-[#E3E0D2] rounded-lg p-6 max-w-2xl mx-auto">
             <h3 className="text-lg text-[#0084BD] mb-2">📍 Venue Information</h3>
             <p className="text-[#748995]">
-              <strong>TBD</strong><br/>
-              TBD<br/>
+              <strong>King Saud University - College of Computer and Information Sciences </strong><br/>
+              <br/>
               Riyadh, Saudi Arabia<br/>
               <em>All sessions will be broadcast live for virtual participants</em>
             </p>

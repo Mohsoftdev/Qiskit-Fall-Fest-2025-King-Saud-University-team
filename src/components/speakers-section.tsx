@@ -10,11 +10,10 @@ export function SpeakersSection() {
       title: "IBM Quantum ambassador in the EMEA Region, Qiskit Advocate.",
       affiliation: "IBM",
       bio: "Leading researcher in quantum algorithms and their applications to optimization problems. Published 50+ papers in quantum computing.",
-      expertise: ["Qiskit", "Optimization", "QAOA"],
+      expertise: ["Qiskit", "Material Science", "Ambassador"],
       social: {
         linkedin: "https://www.linkedin.com/in/ahmedal-qatatsheh/",
-        twitter: "#",
-        website: "#"
+        
       }
     },
     {
@@ -22,11 +21,10 @@ export function SpeakersSection() {
       title: "Senior Technology Consultant at Saudi Aramco, Chairman of the Saudi Quantum Computing Association, and Fellow of the World Economic Forum.",
       affiliation: "Aramco - Saudi Quantum Computing Association",
       bio: "Senior quantum software engineer at IBM with expertise in Qiskit development and quantum machine learning applications.",
-      expertise: ["Qiskit", "Quantum ML", "Economics"],
+      expertise: ["Aramco", "Systems", "Economics"],
       social: {
         linkedin: "https://www.linkedin.com/in/muhammad-al-saiyari-%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D8%B5%D9%8A%D8%B9%D8%B1%D9%8A-1082573/",
-        twitter: "#",
-        website: "#"
+        
       }
     },
     {
@@ -34,10 +32,10 @@ export function SpeakersSection() {
       title: "Lecturer at King Saud University and Co-founder of Saudi Quantum Technology Association",
       affiliation: "King Saud University",
       bio: "Specialist in quantum cryptography and quantum key distribution with focus on practical implementations.",
-      expertise: ["Quantum Cryptography", "QKD", "Security"],
+      expertise: ["Quantum Mechanics", "Education", "Intiatives"],
       social: {
         linkedin: "https://www.linkedin.com/in/khulud-almutairi-493501251/",
-        website: "#"
+        
       }
     },
     {
@@ -45,11 +43,10 @@ export function SpeakersSection() {
       title: "Former General Manager of Quantum Technologies and Advanced Computing at KACST, and leader of Saudi Arabia’s national quantum strategy through C4IR KSA. He holds a Ph.D. in Computational Science and an MBA.",
       affiliation: "C4IR KSA",
       bio: "",
-      expertise: ["C4IR", "Quantum Strategy", "Industry Applications"],
+      expertise: ["C4IR", "Quantum Strategy", "Systems"],
       social: {
         linkedin: "https://www.linkedin.com/company/c4ir-ksa/",
-        twitter: "#",
-        website: "#"
+        
       }
     },
     {
@@ -60,7 +57,7 @@ export function SpeakersSection() {
       expertise: ["Quantum Education", "Interdisciplinary Research", "Research"],
       social: {
         linkedin: "https://www.linkedin.com/in/muhamad-felemban-074740a/",
-        website: "#"
+        
       }
     }
   ];
