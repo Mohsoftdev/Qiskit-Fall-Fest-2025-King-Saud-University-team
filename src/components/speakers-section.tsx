@@ -17,13 +17,24 @@ export function SpeakersSection() {
       }
     },
     {
-      name: "Eng. Muhammad Al-Saiyari",
-      title: "Senior Technology Consultant at Saudi Aramco, Chairman of the Saudi Quantum Computing Association, and Fellow of the World Economic Forum.",
-      affiliation: "Aramco - Saudi Quantum Computing Association",
-      bio: "Senior quantum software engineer at IBM with expertise in Qiskit development and quantum machine learning applications.",
-      expertise: ["Aramco", "Systems", "Economics"],
+      name: "Dr. Saad Al Owayyed",
+      title: "Former General Manager of Quantum Technologies and Advanced Computing at KACST, and leader of Saudi Arabia’s national quantum strategy through C4IR KSA. He holds a Ph.D. in Computational Science and an MBA.",
+      affiliation: "Saud Quantum Computing Association | C4IR KSA",
+      bio: "",
+      expertise: ["C4IR", "Quantum Strategy", "Systems"],
       social: {
-        linkedin: "https://www.linkedin.com/in/muhammad-al-saiyari-%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D8%B5%D9%8A%D8%B9%D8%B1%D9%8A-1082573/",
+        linkedin: "https://www.linkedin.com/company/c4ir-ksa/",
+        
+      }
+    },
+    {
+      name: "Dr. Abdulrhman Alajami",
+      title: "Visionary Digital Transformation Leader | National Strategy & Growth",
+      affiliation: "Saudi Quantum Computing Association | Communications, Space & Technology Commission (CST)",
+      bio: "Senior quantum software engineer at IBM with expertise in Qiskit development and quantum machine learning applications.",
+      expertise: ["Governance", "Management", "Quantum", "Communication"],
+      social: {
+        linkedin: "https://www.linkedin.com/in/abdulrhmanalajmi/",
         
       }
     },
@@ -38,28 +49,8 @@ export function SpeakersSection() {
         
       }
     },
-    {
-      name: "Dr. Saad Al Owayyed",
-      title: "Former General Manager of Quantum Technologies and Advanced Computing at KACST, and leader of Saudi Arabia’s national quantum strategy through C4IR KSA. He holds a Ph.D. in Computational Science and an MBA.",
-      affiliation: "C4IR KSA",
-      bio: "",
-      expertise: ["C4IR", "Quantum Strategy", "Systems"],
-      social: {
-        linkedin: "https://www.linkedin.com/company/c4ir-ksa/",
-        
-      }
-    },
-    {
-      name: "Dr. Muhamad Felemban",
-      title: "Assistant Professor at KFUPM and Director of the Interdisciplinary Research Center for Intelligent Secure Systems. Focused on data security, privacy-preserving analytics, and quantum computing.",
-      affiliation: "KFUPM",
-      bio: "Expert in quantum error correction codes and fault-tolerant quantum computing architectures.",
-      expertise: ["Quantum Education", "Interdisciplinary Research", "Research"],
-      social: {
-        linkedin: "https://www.linkedin.com/in/muhamad-felemban-074740a/",
-        
-      }
-    }
+    
+    
   ];
 
   const getExpertiseColor = (expertise: string) => {

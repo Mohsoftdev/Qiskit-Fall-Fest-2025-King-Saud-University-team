@@ -56,7 +56,7 @@ export function EventDetails() {
       ]
     },
     {
-      title: "Day 3: Design your Quantum Education and Implement your first circuits",
+      title: "Day 3: Implement the Algorithm",
       date: "20 Nov 2025",
       format: "Hybrid",
       level: "Beginner to Intermediate",
@@ -64,11 +64,11 @@ export function EventDetails() {
       subEvents: [
         {
           type: "speech",
-          title: "Quantum Education",
+          title: "",
           time: "18:00",
-          description: "A Talk about quantum education in general and what are the future plans in the Kingdom.",
+          description: "",
           location: ('Hybrid'),
-          speaker: "Dr. Mohammed Felemban"
+          speaker: "Eng. Abdulrhman Alajmi"
         },
         {
           type: "workshop",
@@ -86,13 +86,13 @@ export function EventDetails() {
       level: "Intermediate",
       description: "Explore advanced quantum algorithms and their practical implementations",
       subEvents: [
-        {
-          type: "speech",
-          title: "Quantum economic and its opportunities",
-          time: "18:00",
-          description: "Exploring the intersection of quantum technology, economics, and the role of youth in driving change.",
-          speaker: "Eng. Muhammad Al-Saiyari"
-        },
+        // {
+        //   type: "speech",
+        //   title: "",
+        //   time: "18:00",
+        //   description: "",
+        //   speaker: ""
+        // },
         {
           type: "workshop",
           title: "QML (Quantum Machine Learning)",
