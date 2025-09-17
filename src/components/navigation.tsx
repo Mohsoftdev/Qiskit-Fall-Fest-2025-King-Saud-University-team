@@ -39,9 +39,9 @@ export function Navigation() {
                 {item.name}
               </a>
             ))}
-            <Button className="bg-[#FF006B] hover:bg-[#6929C4] text-white">
+            <a className="bg-[#FF006B] hover:bg-[#6929C4] text-white p-2 rounded-xl" href="https://docs.google.com/forms/d/e/1FAIpQLScAv8REJhNIK1eqBW0AWRw6HY9pRvmqED2sbOU_-C4Cgq5sHQ/viewform?usp=header">
               Register Now
-            </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}

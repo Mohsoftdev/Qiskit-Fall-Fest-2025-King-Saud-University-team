@@ -71,7 +71,7 @@ export function RegistrationSection() {
                   className="w-full bg-[#FF006B] hover:bg-[#6929C4] text-white"
                   asChild
                 >
-                  <a href="https://forms.google.com/your-in-person-form-link" target="_blank" rel="noopener noreferrer">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLScAv8REJhNIK1eqBW0AWRw6HY9pRvmqED2sbOU_-C4Cgq5sHQ/viewform?usp=header" target="_blank" rel="noopener noreferrer">
                     Register for In-Person
                   </a>
                 </Button>
@@ -105,7 +105,7 @@ export function RegistrationSection() {
                   className="w-full bg-[#0084BD] hover:bg-[#6929C4] text-white"
                   asChild
                 >
-                  <a href="https://forms.google.com/your-virtual-form-link" target="_blank" rel="noopener noreferrer">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLScAv8REJhNIK1eqBW0AWRw6HY9pRvmqED2sbOU_-C4Cgq5sHQ/viewform?usp=header" target="_blank" rel="noopener noreferrer">
                     Register for Virtual
                   </a>
                 </Button>

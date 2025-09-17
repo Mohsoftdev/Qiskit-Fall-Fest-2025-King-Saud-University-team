@@ -79,9 +79,9 @@ export function HeroSection() {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-          <Button size="lg" className="bg-[#FF006B] hover:bg-[#6929C4] text-white px-8 py-4 text-lg">
+          <a  className="bg-[#FF006B] hover:bg-[#6929C4] text-white px-8 py-2 text-lg rounded-lg" href="https://docs.google.com/forms/d/e/1FAIpQLScAv8REJhNIK1eqBW0AWRw6HY9pRvmqED2sbOU_-C4Cgq5sHQ/viewform?usp=header">
             Register Now
-          </Button>
+          </a>
           <Button variant="outline" size="lg" className="border-[#E3E0D2] text-[#E3E0D2] hover:bg-[#E3E0D2] hover:text-[#6929C4] px-8 py-4 text-lg">
             Learn More
           </Button>
