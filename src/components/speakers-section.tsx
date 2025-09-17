@@ -30,8 +30,8 @@ export function SpeakersSection() {
     {
       name: "Dr. Abdulrhman Alajami",
       title: "Visionary Digital Transformation Leader | National Strategy & Growth",
-      affiliation: "Saudi Quantum Computing Association | Communications, Space & Technology Commission (CST)",
-      bio: "Senior quantum software engineer at IBM with expertise in Qiskit development and quantum machine learning applications.",
+      affiliation: "Vice Chair of Saudi Quantum Computing Association",
+      bio: "",
       expertise: ["Governance", "Management", "Quantum", "Communication"],
       social: {
         linkedin: "https://www.linkedin.com/in/abdulrhmanalajmi/",

@@ -68,7 +68,7 @@ export function EventDetails() {
           time: "18:00",
           description: "",
           location: ('Hybrid'),
-          speaker: "Eng. Abdulrhman Alajmi"
+          speaker: "Dr. Abdulrhman Alajmi"
         },
         {
           type: "workshop",
