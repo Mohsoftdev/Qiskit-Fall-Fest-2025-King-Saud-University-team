@@ -30,7 +30,7 @@ export function RegistrationSection() {
         <div className="text-center mb-16">
           <h2 className="text-5xl mb-6 text-white">Join the Quantum Revolution</h2>
           <p className="text-xl text-[#E3E0D2] max-w-3xl mx-auto">
-            Register now for Qiskit Fall Fest 2025 at King Saud University. Choose to attend in-person 
+            Register now for Qiskit Fall Fest 2025 at King Saud University. Choose to attend in-person
             in Riyadh or join us virtually from anywhere in the world!
           </p>
         </div>
@@ -45,7 +45,7 @@ export function RegistrationSection() {
                   <h3 className="text-2xl text-white">In-Person Attendance</h3>
                 </div>
                 <p className="text-[#E3E0D2] mb-6">
-                  Join us at King Saud University campus in Riyadh for hands-on workshops, 
+                  Join us at King Saud University campus in Riyadh for hands-on workshops,
                   networking sessions, and direct interaction with speakers and organizers.
                 </p>
                 <div className="space-y-3 text-[#E3E0D2] mb-6">
@@ -65,14 +65,20 @@ export function RegistrationSection() {
                     <div className="w-2 h-2 bg-[#E3E0D2] rounded-full mr-3"></div>
                     Networking with speakers and organizers
                   </div>
-                  
+
                 </div>
-                <Button 
-                  className="w-full bg-[#FF006B] hover:bg-[#6929C4] text-white"
+                <Button
+                  className="w-full bg-[#FF006B] hover:bg-[#6929C4] text-white p-4 h-auto whitespace-normal"
                   asChild
                 >
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLScAv8REJhNIK1eqBW0AWRw6HY9pRvmqED2sbOU_-C4Cgq5sHQ/viewform?usp=header" target="_blank" rel="noopener noreferrer">
-                    Register for In-Person (Opens on October 20 kindly follow organizers on linkedIn for updates)
+                  <a
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center text-center leading-tight"
+                  >
+                    Register for In-Person<br />
+                    (Opens on October 20 kindly follow organizers on linkedIn for updates)
                   </a>
                 </Button>
                 <p className="text-xs text-[#E3E0D2] mt-2 text-center">
@@ -88,24 +94,24 @@ export function RegistrationSection() {
                   <h3 className="text-2xl text-white">Virtual Attendance</h3>
                 </div>
                 <p className="text-[#E3E0D2] mb-6">
-                  Participate from anywhere in the world via live streaming, virtual workshops, 
+                  Participate from anywhere in the world via live streaming, virtual workshops,
                   and online interactive sessions.
                 </p>
                 <div className="space-y-3 text-[#E3E0D2] mb-6">
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-[#E3E0D2] rounded-full mr-3"></div>
                     Live streaming of all sessions
-                  </div>                 
+                  </div>
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-[#E3E0D2] rounded-full mr-3"></div>
-                     Participation certificates
+                    Participation certificates
                   </div>
                 </div>
-                <Button 
-                  className="w-full bg-[#0084BD] hover:bg-[#6929C4] text-white"
+                <Button
+                  className="w-full bg-[#0084BD] hover:bg-[#6929C4] text-white p-4 h-auto whitespace-normal"
                   asChild
                 >
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLScAv8REJhNIK1eqBW0AWRw6HY9pRvmqED2sbOU_-C4Cgq5sHQ/viewform?usp=header" target="_blank" rel="noopener noreferrer">
+                  <a href="" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center text-center leading-tight">
                     Register for Virtual (Opens on October 20 kindly follow organizers on linkedIn for updates)
                   </a>
                 </Button>
@@ -131,10 +137,11 @@ export function RegistrationSection() {
                   </div>
                 ))}
               </div>
-            </div>            
+            </div>
           </div>
         </div>
       </div>
     </section>
   );
 }
+// https://docs.google.com/forms/d/e/1FAIpQLScAv8REJhNIK1eqBW0AWRw6HY9pRvmqED2sbOU_-C4Cgq5sHQ/viewform?usp=header
