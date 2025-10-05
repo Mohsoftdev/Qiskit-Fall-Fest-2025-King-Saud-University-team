@@ -8,7 +8,7 @@ import timelineImage4 from '../assets/Emojis/Timeline_04.png';
 export function HeroSection() {
   
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#6929C4] via-[#0084BD] to-[#4C1D95] overflow-hidden">
+    <section className="relative pt-8 min-h-screen flex items-center justify-center bg-gradient-to-br from-[#6929C4] via-[#0084BD] to-[#4C1D95] overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-20 w-32 h-32">
@@ -55,7 +55,7 @@ export function HeroSection() {
             </div>
           </div>
 
-      <div className="container mx-auto px-6 text-center relative z-10">
+      <div className="container mt-12 mx-auto px-6 text-center relative z-10">
         <div className="mb-8 flex items-center justify-center gap-8">
           <img 
             src={pinkLogo} 
