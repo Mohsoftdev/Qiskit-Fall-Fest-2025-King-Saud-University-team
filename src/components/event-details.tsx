@@ -33,7 +33,7 @@ export function EventDetails() {
     {
       title: "Day 2: Introduction to Quantum Computing",
       date: "19 Nov 2025",
-      format: "Mixed",
+      format: "Hybrid",
       level: "Beginner",
       description: "Opening ceremony, welcome session, and comprehensive introduction to quantum computing fundamentals",
       subEvents: [
@@ -86,13 +86,13 @@ export function EventDetails() {
       level: "Intermediate",
       description: "Explore advanced quantum algorithms and their practical implementations",
       subEvents: [
-        // {
-        //   type: "speech",
-        //   title: "",
-        //   time: "18:00",
-        //   description: "",
-        //   speaker: ""
-        // },
+        {
+          type: "speech",
+          title: "Women in Quantum",
+          time: "18:00",
+          description: "Highlighting women’s contributions and opportunities in the field of quantum computing.",
+          speaker: "Khulud Almutairi"
+        },
         {
           type: "workshop",
           title: "QML (Quantum Machine Learning)",
@@ -105,21 +105,15 @@ export function EventDetails() {
     {
       title: "Day 5: Hackathon Day",
       date: "22 Nov 2025",
-      format: "Hybrid",
+      format: "Only In person",
       level: "All Levels",
       description: "Implementing quantum solutions in a collaborative hackathon setting",
       subEvents: [
+        
         {
-          type: "speech",
-          title: "Women in Quantum",
-          time: "18:00",
-          description: "Highlighting women’s contributions and opportunities in the field of quantum computing.",
-          speaker: "Khulud Almutairi"
-        },
-        {
-          type: "workshop",
+          type: "Hackathon",
           title: "Quantum Hackathon",
-          time: "19:00 - 22:00",
+          time: "12:00 - 22:00",
           description: "Intensive team-based development with mentorship support throughout the day",
           
         }
@@ -197,10 +191,10 @@ export function EventDetails() {
                       <div key={subIndex} className="border-l-4 border-gray-200 pl-4 py-2">
                         <div className="flex items-center mb-2">
                           <IconComponent className={`w-4 h-4 mr-2 ${getSubEventColor(subEvent.type)}`} />
-                          <span className={`text-sm font-medium ${getSubEventColor(subEvent.type)}`}>
+                          <span className={`text-sm mr-2 font-medium ${getSubEventColor(subEvent.type)}`}>
                             {(subEvent.type)}
                           </span>
-                          <Badge variant="outline" className="ml-2 text-xs">
+                          <Badge variant="outline" className="ml-4 mr-4 text-xs">
                             {subEvent.time}
                           </Badge>
                         </div>

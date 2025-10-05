@@ -39,7 +39,7 @@ export function Navigation() {
                 {item.name}
               </a>
             ))}
-            <a className="bg-[#FF006B] hover:bg-[#6929C4] text-white p-2 rounded-xl" href="https://docs.google.com/forms/d/e/1FAIpQLScAv8REJhNIK1eqBW0AWRw6HY9pRvmqED2sbOU_-C4Cgq5sHQ/viewform?usp=header">
+            <a className="bg-[#FF006B] hover:bg-[#6929C4] text-white p-2 rounded-xl" href="#register">
               Register Now
             </a>
           </div>
@@ -71,9 +71,9 @@ export function Navigation() {
                   {item.name}
                 </a>
               ))}
-              <Button className="bg-[#FF006B] hover:bg-[#6929C4] text-white w-full mt-4">
-                Register Now
-              </Button>
+              {/* <Button className="bg-[#FF006B] hover:bg-[#6929C4] text-white w-full mt-4">
+                Register (on hold)
+              </Button> */}
             </div>
           </div>
         )}

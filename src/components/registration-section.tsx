@@ -72,7 +72,7 @@ export function RegistrationSection() {
                   asChild
                 >
                   <a href="https://docs.google.com/forms/d/e/1FAIpQLScAv8REJhNIK1eqBW0AWRw6HY9pRvmqED2sbOU_-C4Cgq5sHQ/viewform?usp=header" target="_blank" rel="noopener noreferrer">
-                    Register for In-Person
+                    Register for In-Person (Opens on October 20 kindly follow organizers on linkedIn for updates)
                   </a>
                 </Button>
                 <p className="text-xs text-[#E3E0D2] mt-2 text-center">
@@ -106,7 +106,7 @@ export function RegistrationSection() {
                   asChild
                 >
                   <a href="https://docs.google.com/forms/d/e/1FAIpQLScAv8REJhNIK1eqBW0AWRw6HY9pRvmqED2sbOU_-C4Cgq5sHQ/viewform?usp=header" target="_blank" rel="noopener noreferrer">
-                    Register for Virtual
+                    Register for Virtual (Opens on October 20 kindly follow organizers on linkedIn for updates)
                   </a>
                 </Button>
                 <p className="text-xs text-[#E3E0D2] mt-2 text-center">
