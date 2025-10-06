@@ -77,7 +77,7 @@ export function RegistrationSection() {
                     className="flex items-center justify-center text-center leading-tight"
                   >
                     Register for In-Person<br />
-                    (Opens on October 20 kindly follow organizers on linkedIn for updates)
+                    (Opens on October 20 kindly follow organizers on <a href="">LinkedIn</a> for updates)
                   </a>
                 </Button>
                 </RegistrationPopup>
