@@ -1,6 +1,7 @@
 import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
 import { Gift, Star, Award, MapPin, Globe, Calendar } from "lucide-react";
+import { RegistrationPopup } from "./RegistrationPopup";
 
 export function RegistrationSection() {
   const benefits = [
@@ -67,20 +68,19 @@ export function RegistrationSection() {
                   </div>
 
                 </div>
+                <RegistrationPopup>
                 <Button
                   className="w-full bg-[#FF006B] hover:bg-[#6929C4] text-white p-4 h-auto whitespace-normal"
                   asChild
                 >
-                  <a
-                    href=""
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <a href="#register"
                     className="flex items-center justify-center text-center leading-tight"
                   >
                     Register for In-Person<br />
                     (Opens on October 20 kindly follow organizers on linkedIn for updates)
                   </a>
                 </Button>
+                </RegistrationPopup>
                 <p className="text-xs text-[#E3E0D2] mt-2 text-center">
                   *Must confirm residence in Riyadh/Saudi Arabia region
                 </p>
@@ -107,14 +107,18 @@ export function RegistrationSection() {
                     Participation certificates
                   </div>
                 </div>
+                <RegistrationPopup>
                 <Button
                   className="w-full bg-[#0084BD] hover:bg-[#6929C4] text-white p-4 h-auto whitespace-normal"
                   asChild
                 >
-                  <a href="" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center text-center leading-tight">
+                  
+                  <a href="#register"  className="flex items-center justify-center text-center leading-tight">
                     Register for Virtual (Opens on October 20 kindly follow organizers on linkedIn for updates)
                   </a>
+                  
                 </Button>
+                </RegistrationPopup>
                 <p className="text-xs text-[#E3E0D2] mt-2 text-center">
                   *Open to participants worldwide
                 </p>

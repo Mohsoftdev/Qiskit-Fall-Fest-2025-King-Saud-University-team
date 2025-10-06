@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
 import darkLogo from '../assets/qiskit-dark-logo.png';
+import { RegistrationPopup } from "./RegistrationPopup";
 
 export function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,9 +40,11 @@ export function Navigation() {
                 {item.name}
               </a>
             ))}
+            <RegistrationPopup>
             <a className="bg-[#FF006B] hover:bg-[#6929C4] text-white p-2 rounded-xl" href="#register">
               Register Now
             </a>
+            </RegistrationPopup>
           </div>
 
           {/* Mobile Menu Button */}
