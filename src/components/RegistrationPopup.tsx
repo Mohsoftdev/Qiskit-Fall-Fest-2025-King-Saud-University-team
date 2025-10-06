@@ -20,7 +20,8 @@ export function RegistrationPopup({ children }: { children: React.ReactNode }) {
           </Dialog.Title>
           <Dialog.Description className="text-gray-600 mb-4">
             Registration opens on October 20th. Please follow our organizers on 
-            <a href="" className="font-semibold text-[#0084BD] hover:text-[#6929C4] underline decoration-2 transition-colors duration-200"> LinkedIn </a> 
+            <a href="https://www.linkedin.com/in/mohamedelfatih-seedahmed-077b65245/" 
+            className="font-semibold text-[#0084BD] hover:text-[#6929C4] underline decoration-2 transition-colors duration-200"> LinkedIn </a> 
             for updates.
           </Dialog.Description>
           <Dialog.Close className="absolute top-4 right-4 text-gray-400 hover:text-gray-600">
