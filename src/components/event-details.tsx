@@ -38,14 +38,14 @@ export function EventDetails() {
       level: "Beginner",
       description: "Deep dive into quantum programming with practical circuit building exercises",
       subEvents: [
-        {
-          type: "speech",
-          title: "",
-          time: "18:00",
-          description: "",
-          location: ('Hybrid'),
-          speaker: "Dr. Abdulrhman Alajmi"
-        },
+        // {
+        //   type: "speech",
+        //   title: "",
+        //   time: "18:00",
+        //   description: "",
+        //   location: ('Hybrid'),
+        //   speaker: "Dr. Abdulrhman Alajmi"
+        // },
         {
           type: "workshop",
           title: "Basic Algorithms Implementation Lab",
@@ -62,13 +62,13 @@ export function EventDetails() {
       level: "Intermediate",
       description: "Explore advanced quantum algorithms and their practical implementations",
       subEvents: [
-        {
-          type: "speech",
-          title: "Women in Quantum",
-          time: "18:00",
-          description: "Highlighting women’s contributions and opportunities in the field of quantum computing.",
-          speaker: "Khulud Almutairi"
-        },
+        // {
+        //   type: "speech",
+        //   title: "Women in Quantum",
+        //   time: "18:00",
+        //   description: "Highlighting women’s contributions and opportunities in the field of quantum computing.",
+        //   speaker: "Khulud Almutairi"
+        // },
         {
           type: "workshop",
           title: "QML (Quantum Machine Learning)",
