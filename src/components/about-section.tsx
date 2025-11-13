@@ -30,16 +30,16 @@ export function AboutSection() {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <img 
-            src={darkLogo} 
-            alt="Qiskit Fall Fest" 
+          <img
+            src={darkLogo}
+            alt="Qiskit Fall Fest"
             className="w-32 h-32 mx-auto mb-8"
           />
           <h2 className="text-5xl mb-6 text-gray-900">What is Qiskit Fall Fest?</h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Qiskit Fall Fest is a global celebration of quantum technology, research, and collaboration through engaging different 
-            quantum-themed activities. This year , King Saud university brings that joy into campus in Riyadh and you can also join 
-            virtually from anywhere in the world. Together we will honor the past, explore the quantum breakthroughs of today, and 
+            Qiskit Fall Fest is a global celebration of quantum technology, research, and collaboration through engaging different
+            quantum-themed activities. This year , King Saud university brings that joy into campus in Riyadh and you can also join
+            virtually from anywhere in the world. Together we will honor the past, explore the quantum breakthroughs of today, and
             a take a glimpse into the future that we are building together. Join us and don’t miss out the fun!!
           </p>
         </div>
@@ -62,15 +62,15 @@ export function AboutSection() {
               <h3 className="text-3xl mb-6 text-gray-900">What Will We Accomplish?</h3>
               <div className="space-y-4 text-gray-700">
                 <p>
-                  <strong>Workshops: </strong> Hands-on sessions designed for all levels and covering a wide range of topics 
+                  <strong>Workshops: </strong> Hands-on sessions designed for all levels and covering a wide range of topics
                   using Qiskit, IBM's open-source quantum computing framework.
                 </p>
-                <p>
-                  <strong>Keynote Sessions:</strong> Talks from experts exploring quantum education and sharing 
+                {/* <p>
+                  <strong>Keynote Sessions:</strong> Talks from experts exploring quantum education and sharing
                   their diverse perspectives about the future of quantum computing and its applications.
-                </p>
+                </p> */}
                 <p>
-                  <strong>Network & Collaboration:</strong> Connect with other students, researchers, industry experts and other 
+                  <strong>Network & Collaboration:</strong> Connect with other students, researchers, industry experts and other
                   quantum enthusiasts to build connections that go beyond the event.
                 </p>
                 <p>
@@ -92,6 +92,26 @@ export function AboutSection() {
                 <h4 className="text-lg mb-2 text-gray-900">National Alignment</h4>
                 <p className="text-gray-600">It aligns with Saudi Vision 2030’s focus on advanced technologies.</p>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 bg-gradient-to-r from-[#0084BD] to-[#748995] rounded-2xl p-12 text-white text-center">
+          <h3 className="text-3xl mb-4">Partners made it this hackathon possible</h3>
+          <p className="text-lg text-[#E3E0D2] mb-6 max-w-3xl mx-auto">
+            A warm thank you to our partners for their invaluable support and collaboration in making
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+            <div>
+              <h4 className="text-xl mb-2">King Saud University</h4>
+              <p className="text-[#E3E0D2]">College of Computer and Information Sciences</p>
+            </div>
+            <div>
+              <h4 className="text-xl mb-2">SQCA</h4>
+              <p className="text-[#E3E0D2]">The first quantum computing Association</p>
+            </div>
+            <div>
+              <h4 className="text-xl mb-2">Ingenni</h4>
+              <p className="text-[#E3E0D2]">A think tank to advance the benefits of C4IR in Saudi Arabia</p>
             </div>
           </div>
         </div>

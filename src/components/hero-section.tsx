@@ -96,7 +96,7 @@ export function HeroSection() {
           <p className="text-[#E3E0D2]/80">Join us in-person at location TBD or virtually online</p>
         </div>
         <div>
-          <h3 className="text-2xl mb-2">18 - 22 November 2025</h3>
+          <h3 className="text-2xl mb-2">18 - 20 November 2025</h3>
           <p className="text-[#E3E0D2]/80">5-day quantum computing celebration</p>
         </div>
         <div>

@@ -105,26 +105,7 @@ export function OrganizingTeam() {
           ))}
         </div>
 
-        <div className="bg-gradient-to-r from-[#0084BD] to-[#748995] rounded-2xl p-12 text-white text-center">
-          <h3 className="text-3xl mb-4">Partners made it this hackathon possible</h3>
-          <p className="text-lg text-[#E3E0D2] mb-6 max-w-3xl mx-auto">
-            A warm thank you to our partners for their invaluable support and collaboration in making
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-            <div>
-              <h4 className="text-xl mb-2">King Saud University</h4>
-              <p className="text-[#E3E0D2]">College of Computer and Information Sciences</p>
-            </div>
-            <div>
-              <h4 className="text-xl mb-2">SQCA</h4>
-              <p className="text-[#E3E0D2]">The first quantum computing Association</p>
-            </div>
-            <div>
-              <h4 className="text-xl mb-2">C4IR</h4>
-              <p className="text-[#E3E0D2]">A think tank to advance the benefits of C4IR in Saudi Arabia</p>
-            </div>
-          </div>
-        </div>
+
       </div>
     </section>
   );

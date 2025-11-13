@@ -19,9 +19,9 @@ export default function App() {
         <section id="schedule">
           <EventDetails />
         </section>
-        <section id="speakers">
+        {/* <section id="speakers">
           <SpeakersSection />
-        </section>
+        </section> */}
         <section id="team">
           <OrganizingTeam />
         </section>

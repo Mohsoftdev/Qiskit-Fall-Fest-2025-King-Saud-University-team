@@ -6,7 +6,7 @@ export function EventDetails() {
   
   const getEvents = () => [
     {
-      title: "Day 1: Track the revolution",
+      title: "Day 1: Track the revolution & Introduction to Quantum Computing",
       date: "18 Nov 2025",
       format: "Hybrid",
       level: "All Levels",
@@ -21,45 +21,21 @@ export function EventDetails() {
           speaker: "Organizing Team"
         },
         {
-          type: "speech",
-          title: "IBM Roadmap and the Future of Quantum Computing",
-          time: "19:00",
-          description: "Presenting IBM’s vision and milestones toward building fault-tolerant quantum computers.",
-          speaker: "Dr. Ahmed Al-Qatatsheh"
-        },
-        
-      ]
-    },
-    {
-      title: "Day 2: Introduction to Quantum Computing",
-      date: "19 Nov 2025",
-      format: "Hybrid",
-      level: "Beginner",
-      description: "Opening ceremony, welcome session, and comprehensive introduction to quantum computing fundamentals",
-      subEvents: [
-        {
-          type: "speech", 
-          title: 'Building the Quantum Ecosystem',
-          time: '18:00',
-          description: 'Sharing insights on how to enrich the quantum ecosystem in Saudi Arabia and what is the potential impact of that.',
-          location: 'Hybrid',
-          speaker: "Dr. Saad Al Owayyed"
-        },
-        
-        {
           type: "workshop",
           title: "Qiskit 101",
           time: "19:00 - 21:00", 
           description: "Hands-on workshop building quantum circuits, understanding quantum measurements, and implementing basic quantum algorithms in Qiskit"
         },
         
+        
       ]
     },
+   
     {
-      title: "Day 3: Implement the Algorithm",
-      date: "20 Nov 2025",
+      title: "Day 2: Implement the Algorithm",
+      date: "19 Nov 2025",
       format: "Hybrid",
-      level: "Beginner to Intermediate",
+      level: "Beginner",
       description: "Deep dive into quantum programming with practical circuit building exercises",
       subEvents: [
         {
@@ -80,8 +56,8 @@ export function EventDetails() {
       ]
     },
     {
-      title: "Day 4: Deep Dive",
-      date: "21 Nov 2025",
+      title: "Day 3: Deep Dive",
+      date: "20 Nov 2025",
       format: "Hybrid",
       level: "Intermediate",
       description: "Explore advanced quantum algorithms and their practical implementations",
@@ -102,23 +78,23 @@ export function EventDetails() {
         
       ]
     },
-    {
-      title: "Day 5: Hackathon Day",
-      date: "22 Nov 2025",
-      format: "Only In person",
-      level: "All Levels",
-      description: "Implementing quantum solutions in a collaborative hackathon setting",
-      subEvents: [
+    // {
+    //   title: "Day 5: Hackathon Day",
+    //   date: "21 Nov 2025",
+    //   format: "Only In person",
+    //   level: "All Levels",
+    //   description: "Implementing quantum solutions in a collaborative hackathon setting",
+    //   subEvents: [
         
-        {
-          type: "Hackathon",
-          title: "Quantum Hackathon",
-          time: "12:00 - 22:00",
-          description: "Intensive team-based development with mentorship support throughout the day",
+    //     {
+    //       type: "Hackathon",
+    //       title: "Quantum Hackathon",
+    //       time: "12:00 - 22:00",
+    //       description: "Intensive team-based development with mentorship support throughout the day",
           
-        }
-      ]
-    },
+    //     }
+    //   ]
+    // },
     
   ];
   
