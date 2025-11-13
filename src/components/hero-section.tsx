@@ -76,7 +76,8 @@ export function HeroSection() {
         </p>
 
         <p className="text-xl text-[#FF006B] mb-8 max-w-3xl mx-auto">
-          Hosted by College of Computer & Information Science • Hybrid Event • King Saud University, Riyadh, Saudi Arabia
+          Hosted by College of Computer & Information Science • Hybrid Event • 
+          <a href="https://maps.app.goo.gl/WocD1euA2k2ptkXXA" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#FF006B] hover:text-[#E3E0D2] underline">King Saud University</a>, Riyadh, Saudi Arabia
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">

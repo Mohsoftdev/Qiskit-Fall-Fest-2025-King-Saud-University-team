@@ -1,34 +1,40 @@
-import * as Dialog from "@radix-ui/react-dialog";
+import * as React from "react";
 
-export function RegistrationPopup({ children }: { children: React.ReactNode }) {
+const DEFAULT_FORM_URL =
+  "https://docs.google.com/forms/d/e/1FAIpQLScAv8REJhNIK1eqBW0AWRw6HY9pRvmqED2sbOU_-C4Cgq5sHQ/viewform?usp=dialog";
+
+export function RegistrationPopup({
+  children,
+  formUrl = DEFAULT_FORM_URL,
+}: {
+  children: React.ReactNode;
+  formUrl?: string;
+}) {
+  // When any wrapped element is clicked, open the registration form in a new tab.
+  const openForm = (e?: React.MouseEvent) => {
+    e?.preventDefault();
+    try {
+      window.open(formUrl, "_blank", "noopener,noreferrer");
+    } catch (err) {
+      // fallback
+      window.location.href = formUrl;
+    }
+  };
+
+  if (React.isValidElement(children)) {
+    const existingOnClick = (children as any).props?.onClick;
+    const onClick = (e: React.MouseEvent) => {
+      if (typeof existingOnClick === "function") existingOnClick(e);
+      openForm(e);
+    };
+
+    return React.cloneElement(children as React.ReactElement, { onClick });
+  }
+
+  // Fallback for non-element children
   return (
-    <Dialog.Root>
-      <Dialog.Trigger asChild>
-        {children}
-      </Dialog.Trigger>
-      <Dialog.Portal>
-        <Dialog.Overlay 
-          className="fixed inset-0 bg-black/50" 
-          style={{ zIndex: 9998 }} 
-        />
-        <Dialog.Content 
-          className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg p-6 w-[90vw] max-w-md"
-          style={{ zIndex: 9999 }}
-        >
-          <Dialog.Title className="text-xl font-bold mb-4">
-            Registration Not Open Yet
-          </Dialog.Title>
-          <Dialog.Description className="text-gray-600 mb-4">
-            Registration opens on October 20th. Please follow our organizers on 
-            <a href="https://www.linkedin.com/in/mohamedelfatih-seedahmed-077b65245/" 
-            className="font-semibold text-[#0084BD] hover:text-[#6929C4] underline decoration-2 transition-colors duration-200"> LinkedIn </a> 
-            for updates.
-          </Dialog.Description>
-          <Dialog.Close className="absolute top-4 right-4 text-gray-400 hover:text-gray-600">
-            ✕
-          </Dialog.Close>
-        </Dialog.Content>
-      </Dialog.Portal>
-    </Dialog.Root>
+    <button type="button" onClick={openForm} className="inline-block">
+      {children}
+    </button>
   );
 }

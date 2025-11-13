@@ -77,7 +77,7 @@ export function RegistrationSection() {
                     className="flex items-center justify-center text-center leading-tight"
                   >
                     Register for In-Person<br />
-                    (Opens on October 20 kindly follow organizers on LinkedIn for updates)
+                    {/* (Opens on October 20 kindly follow organizers on LinkedIn for updates) */}
                   </a>
                 </Button>
                 </RegistrationPopup>
@@ -85,6 +85,9 @@ export function RegistrationSection() {
                   *Must confirm residence in Riyadh/Saudi Arabia region
                 </p>
               </CardContent>
+                <p className="text-sm text-[#E3E0D2] mt-2 text-center">
+                  Venue: <a href="https://maps.app.goo.gl/WocD1euA2k2ptkXXA" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#0084BD] hover:text-[#6929C4] underline">King Saud University — View on map</a>
+                </p>
             </Card>
 
             <Card className="bg-white/10 backdrop-blur-sm border-white/20">
@@ -114,7 +117,8 @@ export function RegistrationSection() {
                 >
                   
                   <a href="#register"  className="flex items-center justify-center text-center leading-tight">
-                    Register for Virtual (Opens on October 20 kindly follow organizers on linkedIn for updates)
+                    Register for Virtual 
+                    {/* (Opens on October 20 kindly follow organizers on linkedIn for updates) */}
                   </a>
                   
                 </Button>

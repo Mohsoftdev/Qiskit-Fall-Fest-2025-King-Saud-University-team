@@ -129,7 +129,12 @@ export function EventDetails() {
           <div className="mt-8 bg-[#E3E0D2] rounded-lg p-6 max-w-2xl mx-auto">
             <h3 className="text-lg text-[#0084BD] mb-2">📍 Venue Information</h3>
             <p className="text-[#748995]">
-              <strong>King Saud University - College of Computer and Information Sciences </strong><br/>
+              <strong>
+                <a href="https://maps.app.goo.gl/WocD1euA2k2ptkXXA" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#0084BD] hover:text-[#6929C4] underline">
+                  King Saud University - College of Computer and Information Sciences
+                </a>
+              </strong>
+              <br/>
               <br/>
               Riyadh, Saudi Arabia<br/>
               <em>All sessions will be broadcast live for virtual participants</em>
@@ -177,10 +182,10 @@ export function EventDetails() {
                         <h4 className="font-medium text-gray-900 mb-1">{subEvent.title}</h4>
                         <p className="text-sm text-gray-600 mb-2">{subEvent.description}</p>
                         <div className="flex flex-wrap gap-2 text-xs text-gray-500">
-                          {subEvent.location && (
+                          {'location' in subEvent && (subEvent as any).location && (
                             <div className="flex items-center">
                               <MapPin className="w-3 h-3 mr-1" />
-                              <span>{subEvent.location}</span>
+                              <span>{(subEvent as any).location}</span>
                             </div>
                           )}
                           {subEvent.speaker && (
